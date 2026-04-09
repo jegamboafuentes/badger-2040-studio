@@ -296,7 +296,7 @@ export default function App() {
                 <Github className="w-3 h-3" /> Developed by: Enrique Gamboa
               </a>
               <a 
-                href="#" 
+                href="https://github.com/jegamboafuentes/badger-2040-studio" 
                 className="text-xs text-zinc-400 hover:text-zinc-100 flex items-center gap-2 transition-colors"
               >
                 <ExternalLink className="w-3 h-3" /> Project Repo
