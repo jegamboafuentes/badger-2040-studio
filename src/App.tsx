@@ -157,7 +157,7 @@ export default function App() {
                   <DialogHeader>
                     <DialogTitle className="text-xl font-bold">About Badger 2040 Studio</DialogTitle>
                     <DialogDescription className="text-zinc-400 pt-4 leading-relaxed">
-                      This is an open-source project developed by <span className="text-zinc-100 font-medium">Enrique Gamboa</span> as part of his Metaverse Professional portfolio.
+                      This is an open-source project developed by <span className="text-zinc-100 font-medium">Enrique Gamboa</span> as part of his <a href="https://metaverseprofessional.tech/" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">Metaverse Professional</a> portfolio.
                     </DialogDescription>
                   </DialogHeader>
                   <div className="flex justify-end pt-4">
@@ -277,11 +277,18 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-4 opacity-50">
-              <div className="w-6 h-6 bg-zinc-800 rounded-sm" />
+              <div className="w-6 h-6 bg-white rounded-md overflow-hidden flex items-center justify-center border border-zinc-700">
+                <img 
+                  src="https://github.com/pimoroni/badger2040/blob/main/badger_os/badges/badge.jpg?raw=true" 
+                  alt="Badger Icon" 
+                  className="w-full h-full object-cover"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
               <span className="text-xs font-mono uppercase tracking-widest">Badger 2040 Studio</span>
             </div>
             <p className="text-xs text-zinc-500 max-w-md">
-              This is an open-source project developed by <span className="text-zinc-300 font-medium">Enrique Gamboa</span> as part of his Metaverse Professional portfolio.
+              This is an open-source project developed by <span className="text-zinc-300 font-medium">Enrique Gamboa</span> as part of his <a href="https://metaverseprofessional.tech/" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">Metaverse Professional</a> portfolio.
             </p>
           </div>
           
@@ -296,7 +303,9 @@ export default function App() {
                 <Github className="w-3 h-3" /> Developed by: Enrique Gamboa
               </a>
               <a 
-                href="#" 
+                href="https://github.com/jegamboafuentes/badger-2040-studio" 
+                target="_blank"
+                rel="noreferrer"
                 className="text-xs text-zinc-400 hover:text-zinc-100 flex items-center gap-2 transition-colors"
               >
                 <ExternalLink className="w-3 h-3" /> Project Repo
