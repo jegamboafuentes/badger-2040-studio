@@ -1,0 +1,5 @@
+{
+  "name": "Badger 2040 Web Studio",
+  "description": "Create your own badge design from your browser. A web-based interface for Pimoroni Badger 2040.",
+  "requestFramePermissions": ["serial"]
+}
