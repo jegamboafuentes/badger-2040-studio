@@ -31,7 +31,7 @@ You can find the hardware and its official documentation here: [Pimoroni Badger 
 ---
 
 ## Screenshot
-[PLACEHOLDER: Insert Badger 2040 Studio screenshot here]
+<img  height="77" alt="Badger 2040 Banner" src="[https://github.com/pimoroni/badger2040/blob/main/badger_os/badges/badge.jpg?raw=true](https://github.com/jegamboafuentes/badger-2040-studio/blob/main/project_assets/img3.jpg?raw=true)" />
 
 ---
 
