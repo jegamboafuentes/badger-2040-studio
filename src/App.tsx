@@ -273,34 +273,33 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-zinc-900 py-12 mt-20">
-        <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
-          <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-4 opacity-50">
-              <div className="w-6 h-6 bg-white rounded-md overflow-hidden flex items-center justify-center border border-zinc-700">
-                <img 
-                  src="https://github.com/pimoroni/badger2040/blob/main/badger_os/badges/badge.jpg?raw=true" 
-                  alt="Badger Icon" 
-                  className="w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
-                />
-              </div>
-              <span className="text-xs font-mono uppercase tracking-widest">Badger 2040 Studio</span>
+      <footer className="border-t border-zinc-900 py-16 mt-20 pb-32">
+        <div className="max-w-4xl mx-auto px-6 flex flex-col items-center text-center gap-6">
+          <div className="flex items-center gap-4 opacity-50">
+            <div className="w-8 h-8 bg-white rounded-md overflow-hidden flex items-center justify-center border border-zinc-700">
+              <img 
+                src="https://github.com/pimoroni/badger2040/blob/main/badger_os/badges/badge.jpg?raw=true" 
+                alt="Badger Icon" 
+                className="w-full h-full object-cover"
+                referrerPolicy="no-referrer"
+              />
             </div>
-            <p className="text-xs text-zinc-500 max-w-md">
-              This is an open-source project developed by <span className="text-zinc-300 font-medium">Enrique Gamboa</span> as part of his <a href="https://metaverseprofessional.tech/" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">Metaverse Professional</a> portfolio.
-            </p>
+            <span className="text-sm font-mono uppercase tracking-widest">Badger 2040 Studio</span>
           </div>
           
-          <div className="flex flex-col md:items-end gap-3">
-            <div className="flex items-center gap-4">
+          <p className="text-xs text-zinc-500 max-w-md leading-relaxed">
+            This is an open-source project developed by <span className="text-zinc-300 font-medium">Enrique Gamboa</span> as part of his <a href="https://metaverseprofessional.tech/" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">Metaverse Professional</a> portfolio.
+          </p>
+
+          <div className="flex flex-col items-center gap-4 mt-4">
+            <div className="flex flex-wrap justify-center items-center gap-6">
               <a 
                 href="https://github.com/jegamboafuentes" 
                 target="_blank" 
                 rel="noreferrer"
                 className="text-xs text-zinc-400 hover:text-zinc-100 flex items-center gap-2 transition-colors"
               >
-                <Github className="w-3 h-3" /> Developed by: Enrique Gamboa
+                <Github className="w-4 h-4" /> Developed by: Enrique Gamboa
               </a>
               <a 
                 href="https://github.com/jegamboafuentes/badger-2040-studio" 
@@ -308,10 +307,10 @@ export default function App() {
                 rel="noreferrer"
                 className="text-xs text-zinc-400 hover:text-zinc-100 flex items-center gap-2 transition-colors"
               >
-                <ExternalLink className="w-3 h-3" /> Project Repo
+                <ExternalLink className="w-4 h-4" /> Project Repo
               </a>
             </div>
-            <p className="text-[10px] text-zinc-600 uppercase tracking-tighter">
+            <p className="text-xs text-zinc-600 uppercase tracking-widest font-medium mt-2">
               Enrique Gamboa - Open Source Developer
             </p>
           </div>
