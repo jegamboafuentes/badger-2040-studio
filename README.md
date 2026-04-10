@@ -31,7 +31,14 @@ You can find the hardware and its official documentation here: [Pimoroni Badger 
 ---
 
 ## Screenshot
-<img  height="77" alt="Badger 2040 Banner" src="[https://github.com/pimoroni/badger2040/blob/main/badger_os/badges/badge.jpg?raw=true](https://github.com/jegamboafuentes/badger-2040-studio/blob/main/project_assets/img3.jpg?raw=true)" />
+<div align="center">
+<img alt="Badger 2040 Banner" src="https://github.com/jegamboafuentes/badger-2040-studio/blob/main/project_assets/img3.jpg?raw=true" />
+</div>
+
+## Design on device
+<div align="center">
+<img alt="Badger 2040 Banner" src="https://github.com/jegamboafuentes/badger-2040-studio/blob/main/project_assets/img2.jpeg?raw=true" />
+</div>
 
 ---
 
@@ -49,3 +56,7 @@ If you want to run this open-source project yourself, follow these steps:
 
 ## Credits
 Developed by **Enrique Gamboa** as part of his Metaverse Professional portfolio.
+
+<div align="center">
+<img alt="Badger 2040 Banner" src="https://github.com/jegamboafuentes/badger-2040-studio/blob/main/project_assets/img1.png?raw=true" />
+</div>
