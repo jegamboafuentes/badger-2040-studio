@@ -274,11 +274,33 @@ display.set_pen(0) # Black
               const isSelected = selectedId === el.id;
               
               if (el.type === 'text') {
-                // Badger 2040 text scaling is not strictly linear and depends heavily on the font.
-                // The default 'sans' font at scale 1 is quite small.
-                // Based on the device photo, scale 2 is roughly 2x scale 1, and scale 3 is 3x.
-                // We will use a base size of 12px for scale 1 to better match the visual proportion on the 296x128 canvas.
-                const baseFontSize = 12;
+                // Badger 2040 text scaling depends heavily on the font.
+                // Looking at the device photo vs the UI:
+                // - Bitmap 14 Outline (scale 1) is quite small on device.
+                // - Serif (scale 1) is larger than Bitmap 14.
+                // - Bitmap 8 (scale 1) is very small.
+                // - Scale 2 and 3 multiply the base size linearly.
+                
+                let baseFontSize = 12; // Default for sans
+                
+                switch (el.font) {
+                  case 'serif':
+                    baseFontSize = 16; // Serif renders larger on device
+                    break;
+                  case 'bitmap8':
+                    baseFontSize = 8; // Bitmap 8 is exactly 8 pixels tall at scale 1
+                    break;
+                  case 'bitmap14_outline':
+                    baseFontSize = 14; // Bitmap 14 is 14 pixels tall
+                    break;
+                  case 'gothic':
+                    baseFontSize = 18; // Gothic is quite large
+                    break;
+                  case 'cursive':
+                    baseFontSize = 16;
+                    break;
+                }
+                
                 const fontSize = el.size * baseFontSize;
                 
                 const getFontFamily = (font: string) => {

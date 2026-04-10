@@ -309,6 +309,14 @@ export default function App() {
               >
                 <ExternalLink className="w-4 h-4" /> Project Repo
               </a>
+              <a 
+                href="https://medium.com/@jegamboafuentes/the-ultimate-ui-for-pimoroni-badger-2040-creating-digital-badges-just-got-easy-35cbe7c10d19" 
+                target="_blank"
+                rel="noreferrer"
+                className="text-xs text-zinc-400 hover:text-zinc-100 flex items-center gap-2 transition-colors"
+              >
+                <BookOpen className="w-4 h-4" /> About this project
+              </a>
             </div>
             <p className="text-xs text-zinc-600 uppercase tracking-widest font-medium mt-2">
               Enrique Gamboa - Open Source Developer
