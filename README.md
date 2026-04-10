@@ -11,6 +11,8 @@ You can try this project for free here: [https://badger2040studio.metaverseprofe
 
 This project was created with Google AI Studio. If you want to remix this project using that tool, use this link: [https://ai.studio/apps/d671be32-f203-43dd-8901-155afef9a1b6](https://ai.studio/apps/d671be32-f203-43dd-8901-155afef9a1b6).
 
+For more info about this project: [Medium post](https://jegamboafuentes.medium.com/35cbe7c10d19)
+
 ### Features
 * **Visual Editor:** Drag and drop text, basic figures, and lines to design your custom badge.
 * **No Code Deployment:** Push your custom design to the device with a single button, eliminating the need to edit Python code manually.
